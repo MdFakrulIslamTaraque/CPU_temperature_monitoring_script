@@ -9,7 +9,7 @@ This script monitors the average CPU temperature and sends a desktop notificatio
    ```bash
    git clone https://github.com/MdFakrulIslamTaraque/CPU_temperature_monitoring_script.git
    ```
-2. Go tho the Make the script executable:
+2. Go tho the directory and make the script executable:
     ```bash
     chmod +x cpu_temp.sh
     ```
@@ -44,7 +44,7 @@ This script monitors the average CPU temperature and sends a desktop notificatio
     ```bash
     * * * * * /path/to/cpu_temp.sh >> /path/to/cron.log 2>&1
     ```
-    Replace /path/to/cpu_temp.sh with the actual path to the script file.
+    Replace /path/to/cpu_temp.sh with the actual path to the script file and also replace the path of cron.log file where the error logs from cron will be added in append mode.
 4. Save and exit the cron file.
 
 ## Checking Cron Logs
